@@ -1,0 +1,6 @@
+@PJATK_APBD_EXAM_HostAddress = http://localhost:5272
+
+GET {{PJATK_APBD_EXAM_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
