@@ -24,6 +24,8 @@ public class PurchaseService : IPurchaseService
 
         if (customer == null) return null;
 
+        return null;
+        /*
         return new CustomersGetDto
         {
             FirstName = customer.FirstName,
@@ -43,7 +45,7 @@ public class PurchaseService : IPurchaseService
             }),
             
         };
-        
+        */
         throw new NotImplementedException();
     }
 }
